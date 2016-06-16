@@ -28,6 +28,10 @@ table.bx-layout-inner-inner-table td.bx-layout-inner-inner-cont { \
 td.bx-layout-inner-inner-cont { \
   padding: 0; \
 } \
+ \
+#bx-help-start.bx-help-start { \
+  visibility: hidden; \
+} \
 ";
 
 function addGlobalStyle(css) {
