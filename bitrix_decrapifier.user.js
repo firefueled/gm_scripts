@@ -2,7 +2,7 @@
 // @name        Bitrix decrapifier
 // @namespace   com.firefueled.biitrixdecrapifier
 // @include     https://*.bitrix24*/*
-// @version     4
+// @version     5
 // @grant       GM_addStyle
 // @downloadURL https://github.com/firefueled/gm_scripts/raw/master/bitrix_decrapifier.user.js
 // ==/UserScript==
