@@ -4,6 +4,7 @@
 // @include     https://*.bitrix24*/*
 // @version     4
 // @grant       GM_addStyle
+// @downloadURL https://github.com/firefueled/gm_scripts/raw/master/bitrix_decrapifier.user.js
 // ==/UserScript==
 
 var styles = " \
