@@ -2,8 +2,8 @@
 // @name        Bitrix decrapifier
 // @namespace   com.firefueled.biitrixdecrapifier
 // @include     https://*.bitrix24*/*
-// @version     3
-// @grant       none
+// @version     4
+// @grant       GM_addStyle
 // ==/UserScript==
 
 var styles = " \
@@ -46,22 +46,4 @@ div#header-inner { \
 } \
 ";
 
-function addGlobalStyle(css) {
-  try {
-    var elmHead, elmStyle;
-    elmHead = document.getElementsByTagName('head')[0];
-    elmStyle = document.createElement('style');
-    elmStyle.type = 'text/css';
-    elmHead.appendChild(elmStyle);
-    elmStyle.innerHTML = css;
-  } catch (e) {
-    if (!document.styleSheets.length) {
-      document.createStyleSheet();
-    }
-    document.styleSheets[0].cssText += css;
-  }
-}
-
-addGlobalStyle(styles);
-
-// go go greasy fork!
+GM_addStyle(styles);
