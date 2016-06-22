@@ -2,7 +2,7 @@
 // @name        Bitrix decrapifier
 // @namespace   com.firefueled.biitrixdecrapifier
 // @include     https://*.bitrix24*/*
-// @version     1
+// @version     3
 // @grant       none
 // ==/UserScript==
 
@@ -31,6 +31,18 @@ td.bx-layout-inner-inner-cont { \
  \
 #bx-help-start.bx-help-start { \
   visibility: hidden; \
+} \
+ \
+div.user-block { \
+  width: auto; \
+} \
+ \
+a.upgrade-btn.upgrade-btn-en { \
+  visibility: hidden; \
+} \
+ \
+div#header-inner { \
+  padding-right: 128px; \
 } \
 ";
 
